@@ -1,0 +1,123 @@
+
+.container{
+    display: grid;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    min-height: 115vh;
+}
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: rgb(131, 43, 214);
+    text-align: center;
+    gap: 20px;
+}
+
+.menu{
+    grid-column-start: 6;
+    grid-column-end: 12;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+ul{
+    list-style-type: none;
+    color: rgb(131, 43, 214);
+    padding-right: 25px;
+}
+
+a:link{
+    text-decoration: none;
+    padding: 8px 16px;
+    border: solid rgb(131, 43, 214)
+}
+
+li{
+    float: left;
+    padding: 5px;
+}
+
+h1{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.632);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #451c74;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section h2{
+    color: #000000fa;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    color: #000000fa;
+    font-size: 15px;
+    margin-bottom: 4px;
+    text-decoration: bold;
+}
+
+form input{
+    padding: 12px;
+    outline: none;
+    margin-bottom: 20px;
+    background: #f5f5f5d2;
+    font-size: 15px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    background: #f5f5f5d2;
+}
+
+form button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid;
+    color: #f5f5f5;
+    margin-bottom: 20px;
+}
+
+.principal{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    color: rgb(135, 135, 201);
+
+}
